@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+div#mini-product div#tieude {
+	width:70%;
+	border-bottom:3px solid #212121;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+}
+div#mini-product div#tieude div#tag {
+	width:100%;
+	hight:100px;
+	color:#000;
+	text-align:right;
+	margin-left:85%;
+	background:#212121;
+	width:15%;
+	height:60px;
+	color:#EFEA46;
+	text-align:center;
+	line-height:60px;
+	font-size:220%;
+}
+
+div#mini-product div#lephai {
+	width:700px;
+	height:800px;
+	background:#212121;
+	float:right;
+	margin-top:80px;
+}
+
+
+
+div#mini-product div#lephai p {
+	margin:105px 105px 90px 105px;
+	font-size:25px;
+	color:#FFF;
+	text-indent:100px;	
+	text-align:justify;
+}
+
+div#mini-product div#letrai {
+	width:442px;
+	height:796px;
+	float:right;
+	margin-left:200px;
+	border:2px solid #212121;
+	margin-bottom:200px;
+	margin-top:80px;
+	background:#FFF;
+}
+
+div#mini-product div#letrai h1 {
+	float:right;
+	font-size:50px;
+	margin:0px 50px 20px 20px;	
+}
+
+div#mini-product div#letrai:hover h1 {
+	color:#F00;	
+}
+
+div#mini-product div#lephai span:hover {
+		border:2px solid #EFEA46;
+		color:#EFEA46;
+}
+div#mini-product div#lephai span {
+		border:2px solid #FFF;
+		padding:1%;
+		color:#FFF;
+		width:20%;
+		float:right;
+		margin-right:15%;
+		text-align:center
+}
+
+
+
+div#mini-product #hinh01 {
+  background: #212121 90% 0 no-repeat;
+  background-attachment:fixed; 
+  margin: 0;
+  height: 668px;
+}
+
+
+/* @NYCBasketball */
+
+div#mini-product #hinh02 {
+  background: url(../img/01.jpg) 0 100px no-repeat;
+  margin: 0;
+  padding-top:100px;
+  height: 600px;
+  background-attachment:fixed;
+}
+div#mini-product #hinh04 {
+  background: url(../img/03.jpg) 0 100px no-repeat;
+  margin: 0;
+  padding-top:100px;
+  height: 600px;
+  background-attachment:fixed;
+}
+div#mini-product #hinh08 {
+  background: url(../img/13.jpg) 0 100px no-repeat;
+  margin: 0;
+  padding-top:100px;
+  height: 600px;
+  background-attachment:fixed;
+}
+div#mini-product #hinh09 {
+  background: url(../img/10.jpg) 0 100px no-repeat;
+  margin: 0;
+  padding-top:100px;
+  height: 600px;
+  background-attachment:fixed;
+}
+
+/* @NYCBasketball */
+
+div#mini-product #BG-fix {
+	background:#212121;
+}

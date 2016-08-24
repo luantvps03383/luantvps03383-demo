@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+div#product {
+	 style="width:100%;
+	 height:auto;
+	 float:left;
+	 position:relative
+}
+div#product div#tieude {
+	width:70%;
+	border-bottom:3px solid #212121;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+}
+div#product div#tieude div#tag {
+	width:100%;
+	hight:100px;
+	color:#000;
+	text-align:right;
+	margin-left:85%;
+	background:#212121;
+	width:15%;
+	height:60px;
+	color:#EFEA46;
+	text-align:center;
+	line-height:60px;
+	font-size:220%;
+}
+div#product div#noidung {
+		height:850px;
+		width:100%;
+		float:left;	
+		padding:50px 0 20px 0;
+		text-align:center;
+		background:#EFEA46;
+}
+div#product div#noidung div img,div#noidung div p{
+		margin:10% 10% 0% 10%;	
+		font-size:125%
+}
+div#product div#noidung div:hover h1 {
+		color:#F00	
+}
+div#product div#noidung div span:hover {
+		border:2px solid #EFEA46;
+		color:#EFEA46;
+}
+div#product div#noidung div span {
+		border:2px solid #FFF;
+		padding:1%;
+		color:#FFF;
+		width:20%;
+		float:right;
+		margin-right:10%;
+		text-align:center
+}
+div#product noidungpd div h1 {
+		font-weight:bold;
+		font-size:250%;	
+		margin:5% 10% 0% 10% !important;
+}
+
+div#product #noidungpd {
+		padding:100px 0px 100px 0px;
+}
+div#product #noidungpd h1 {
+		margin:0px 100px 30px 100px;
+}
+div#product #noidungpd h2 {
+		margin:90px 50px 30px 50px;
+		color:#FFF;
+		font-size:200%;
+}
+div#product #noidungpd p {
+		margin:0 20px 30px 20px;
+}
+
+div#product div#noidungpd div span:hover {
+		border:2px solid #EFEA46;
+		color:#EFEA46;
+}
+div#product div#noidungpd div span  {
+		border:2px solid #FFF;
+		padding:2%;
+		color:#FFF;
+		width:20%;
+		text-align:center
+}

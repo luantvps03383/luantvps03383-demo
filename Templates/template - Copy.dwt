@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title> | Home </title>
+
+<link rel="shortcut icon" href="../Flash/img/icon.png">
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+
+</head>
+
+<style>
+		* {
+				margin:0px;
+				padding:0px;
+				font-family:BigNoodleTitling;	
+		}
+		header {
+				width:100%;
+				height:100px;
+				background:#212121;	
+				float:left;
+				position:fixed;
+				z-index:500;
+				opacity:0.4;
+		}
+		header:hover {
+				opacity:1;	
+		}
+		header div#logo {
+				margin-top:15px;
+				margin-left:100px;	
+				float:left;
+		}
+		header div#menu {
+			width:600px;
+			height:100px;
+			line-height:100px;
+			color:#FFF;
+			font-family:BigNoodleTitling;
+			float:right;
+			font-size:30px;	
+		}
+		header div#menu ul#menulist li {
+			display:inline;	
+			margin-left:50px;
+			position:relative;
+
+		}
+		header div#menu ul#menulist li:hover a.list {
+			color:#EFEA46;
+			border-bottom:5px solid #EFEA46;
+			padding-bottom:10px;
+		}
+		header div#menu ul#menulist li:hover ul#list {
+			width:380px;
+			opacity:1;
+		}
+		header div#menu ul#menulist li ul#list {
+			position:absolute;
+			background:#EFEA46;
+			z-index:1000;
+			top:47px;
+			left:0;
+			color:#000;
+			height:50px;
+			line-height:50px;
+			opacity:0;
+			width: 0px;
+			-webkit-transition: width 0.4s; /* Safari */
+    		-webkit-transition-timing-function: linear; /* Safari */
+    		transition: width 0.4s;
+    		transition-timing-function: linear;
+			overflow:hidden;
+		}
+		header div#menu ul#menulist li ul#list li {
+			margin-left:15px;
+			margin-right:33px;
+			padding:0;
+			display:inline;
+		}
+		header div#menu ul#menulist li ul#list li:hover a {
+			color:#F00;		
+		}
+		header div#menu ul#menulist li:hover ul#list {
+			display:block;	
+		}
+		header div#menu ul li a {
+				text-decoration:none;
+				color:#FFF;	
+		}
+		footer {
+				width:100%;
+				height:225px;
+				background:#212121;	
+				clear:both;
+		}
+		footer div {
+				width:33%;
+				height:165px;
+				margin:30px 0 30px 0;
+				float:left;
+		}
+		footer div#icon img {
+				margin:50px 0px 10px 50px;	
+		}
+		footer div#icon img:hover {
+				border:#EFEA46 3px solid;
+				border-radius:40px;	
+				margin-right:0px;
+				padding:2px;
+		}
+		footer div img,footer div p {
+				float:left;
+				margin:0px 40px 10px 40px;
+				color:#FFF;
+				text-align:justify	
+		}
+		footer div span {
+				border:2px solid #FFF;
+				padding:1%;
+				color:#FFF;
+				width:20%;
+				float:right;
+				margin-right:9%;
+				font-size:95%;
+				text-align:center;
+		}
+		footer div span:hover {
+				border:2px solid #EFEA46;
+				color:#EFEA46;
+		}
+		footer div p em:hover {
+				color:#EFEA46;
+		}
+		div#content {
+				width:100%;	
+				background:#EFEA46;
+				height:auto;
+				float:left;
+		}
+</style>
+
+<body>
+		<header>
+        		<div id="logo">
+                		<img src="../Flash/img/logo.png">
+        		</div>		<!-- dong div#logo -->
+        		<div id="menu">
+                		<ul id="menulist">
+                        	<li><a href="#index" class="list">HOME</a></li>
+                            <li><a href="#product" class="list">PRODUCT</a>
+                            		<ul id="list">
+                               		  <li><a href="#mini-product">CLOTHES</a></li>
+                                      <li><a href="#mini-product">SHOES</a></li>
+                                      <li><a href="#mini-product">ACCESSORY</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#about" class="list">ABOUT</a></li>
+                            <li><a href="#contact" class="list">CONTACT</a></li>
+                        </ul>
+        		</div>		<!-- dong div#menu -->
+                <p style="clear:both"></p>
+		</header>	<!-- dong header -->
+        			<!-- TemplateBeginEditable name="content" -->
+        			<div id="content">
+        					
+        			</div>	 <!-- dong div#content -->
+                    <!-- TemplateEndEditable -->
+        <footer>
+        			<div>
+                    		<img src="../Flash/img/logo.png">
+                            <p>Man CLOTHING is company. It allowance prvailed enjoyment in it. Calling observe for who pressed raising his. Can connection instrument astonis affected his vmotionless preference.</p>
+                            <span>Learn more ....</span>
+                    </div>
+                    <div style="border-right:2px solid #FFF;border-left:2px solid #FFF">
+                    		<p style="font-size:150%;margin-top:30px;margin-left:60px"><em>GIFT CARDS</em><br>
+							<em>FIND A STORE</em><br>
+							<em>SIGN UP FOR EMAIL</em><br>
+							<em>BECOME A MEMBER</em></p>
+                            <p style="font-size:150%;margin-top:30px;"><em>GET HELP</em></p>
+                            <p style="opacity:0.5"><em>Order Status</em><br>
+							<em>Shipping and Delivery</em><br>
+							<em>Returns</em><br>
+							<em>Playment Options</em></p>
+                    </div>
+                    <div id="icon">
+                    		<img src="../Flash/img/face.png">
+                            <img src="../Flash/img/skype.png">
+                            <img src="../Flash/img/youtube.png">
+                            <img src="../Flash/img/instagram.png">
+                    </div>
+        </footer>	<!-- dong footer -->
+        
+
+<!-- TemplateBeginEditable name="foot" -->
+<!-- TemplateEndEditable -->
+</body>
+</html>

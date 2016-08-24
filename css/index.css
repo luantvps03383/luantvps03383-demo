@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+div#index {
+		background: url(../img/banner-01-01.jpg) 50% 0 no-repeat;
+  		background-attachment:fixed; 
+ 		margin: 0;
+  		height: 609px;	
+		overflow:hidden;
+}
+div#index div#banner {
+		height:auto;
+		width:100%;
+		background:#212121;
+		float:left;
+		text-align:center;	
+}
+
+div#index div#noidung div img,div#noidung div p{
+		margin:10% 10% 0% 10%;	
+		font-size:125%
+}
+div#index div#noidung div:hover h1 {
+		color:#F00	
+}
+div#index div#noidung div span:hover {
+		border:2px solid #EFEA46;
+		color:#EFEA46;
+}
+div#index div#noidung div span {
+		border:2px solid #FFF;
+		padding:1%;
+		color:#FFF;
+		width:20%;
+		float:right;
+		margin-right:10%;
+		text-align:center
+}
+div#index div#noidung div h1 {
+		font-weight:bold;
+		font-size:250%;	
+		margin:5% 10% 0% 10% !important;
+}
+

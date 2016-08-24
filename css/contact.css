@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+div#contact div#tieude {
+	width:70%;
+	border-bottom:3px solid #212121;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+}
+div#contact div#tieude div#tag {
+	width:100%;
+	hight:100px;
+	color:#000;
+	text-align:right;
+	margin-left:85%;
+	background:#212121;
+	width:15%;
+	height:60px;
+	color:#EFEA46;
+	text-align:center;
+	line-height:60px;
+	font-size:220%;
+}
+div#contact div#box {
+	text-align:center;
+}
+div#contact div#connect {
+	width:100%;
+	height:600px;
+	margin-bottom:50px;	
+	text-align:center;	
+	margin-top:200px;
+	background:#212121;
+	font-size:20px;
+}
+div#contact div#connect span {
+	font-size:25px;	
+}
+div#contact div#connect div#letrai {
+	width:50%;
+	height:600px;
+	margin:50px 0 50px 0;
+	float:left	
+}
+div#contact div#connect div#letrai #form {
+	color:#EFEA46;
+	margin-left:30%;
+}
+div#contact div#connect div#letrai .box {
+	float:left;
+	margin:10px 0 10px 0;	
+	width:400px;
+	height:35px;
+	padding-left:10px;
+}
+div#contact div#connect div#letrai .button {
+	width:110px;
+	height:30px;
+	background:#EFEA46;
+	color:#212121;
+	border-radius:4px;
+	font-size:20px;
+	margin:20px 0px 0 80px;
+}
+div#contact div#connect div#letrai .button:hover {
+	color:#F00;	
+}
+div#contact div#connect div#letrai #button {
+	float:left;
+	text-align:center;	
+}
+div#contact div#connect div#letrai .areabox  {
+	float:left;
+	margin:10px 0 10px 0;
+	width:400px;
+	height:135px;	
+	padding-top:10px;
+	padding-left:10px;
+}
+
+div#contact div#connect div#letrai .date, div#contact div#connect div#letrai .check {
+	float:left;
+	width:45%;
+	height:35px;
+	line-height:35px;
+	margin:10px 0 10px 0;
+	padding-left:10px;	
+}
+
+div#contact div#connect div#lephai {
+	float:right;
+	width:25%;
+	height:auto;
+	color:#EFEA46;
+	text-align:right;
+	margin-right:15%;
+	margin-top:60px;
+	font-family:"SVN-Agency FB";
+}

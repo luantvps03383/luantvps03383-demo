@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+div#about div#tieude {
+	width:70%;
+	border-bottom:3px solid #212121;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+}
+div#about div#tieude div#tag {
+	width:100%;
+	hight:100px;
+	color:#000;
+	text-align:right;
+	margin-left:85%;
+	background:#212121;
+	width:15%;
+	height:60px;
+	color:#EFEA46;
+	text-align:center;
+	line-height:60px;
+	font-size:220%;
+}
+div#about div#overview {
+	width:85%;
+	height:300px;
+	margin-bottom:150px;	
+	text-align:center;	
+}
+div#about div#overview h1 {
+	font-size:400%;
+	margin-bottom:40px;
+	margin-top:10px;
+}
+div#about div#overview p {
+	margin:0px 100px 50px 230px;
+	text-align:justify;
+	text-indent:100px;
+	font-size:170%;
+}
+div#about div#overview div#letrai {
+	width:115px;
+	height:300px;
+	background:#212121;
+	float:left
+}
+div#about div#headquater {
+	width:85%;
+	height:300px;
+	margin-bottom:150px;
+	float:right		
+}
+div#about div#headquater div#lephai {
+	width:115px;
+	height:300px;
+	background:#EFEA46;
+	margin-bottom:200px;
+	float:right;
+	margin-left:50px;
+	
+}
+div#about div#headquater img {
+	float:left;	
+	margin-right:50px;
+	margin-top:50px;
+}
+div#about div#headquater p {
+	text-align:center;
+	font-size:150%;
+	margin-top:50px;
+}
